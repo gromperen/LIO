@@ -8,11 +8,14 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-	int n;
-	cin >> n;
+	
 	vector<pair<int,int>> cords;
 	vector<vector<double>> distances(n);
 	vector<int> alive;
+	
+	//input
+	int n;
+	cin >> n;
 	for (int i = 0; i < n; ++i)
 		{
 			int x, y;
@@ -27,13 +30,13 @@ int main() {
 		{
 			double distx = abs(cords[i].first - cords[j].first);
 			double disty = abs(cords[i].second - cords[j].second);
-			distances[i].push_back(sqrt((distx*distx)+(disty*disty)));
+			distances[i].push_back(sqrt((distx*distx)+(disty*disty)));	//calculate distance for point i to point j and save at distances[i][j]
 		//	cout << distances[i][j] << "\n";
 		}
 		//cout << "\n-------\n";
 	}
 	int cnt = 0;
-
+	//calculates rounds and increments cnt after round.
 	while(true){
 		//cout << "\n ROUND #" << cnt << "\n";
 		bool changed = false;
@@ -71,7 +74,7 @@ int main() {
 		}
 
 		cnt++;
-		if (!changed){
+		if (!changed){					// if there hasnt been any changes to last round then exit
 			cout << cnt-1 << endl;
 			for (int i = 0; i < alive.size(); ++i)
 			{
@@ -79,7 +82,7 @@ int main() {
 			}
 			break;
 		}
-		else if(alive.empty()){
+		else if(alive.empty()){				// if noone is alive then exit
 			cout << cnt << endl;
 			cout << "+";
 			break;
