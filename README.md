@@ -1,3 +1,3 @@
 # LIO
-Answers for the Luxembourg Informatics Olympiad
+Answers for the Luxembourg Informatics Olympiad\n
 Link: https://portal.education.lu/infosolympiad/LIO-2020#3216504-les-questionnaires
