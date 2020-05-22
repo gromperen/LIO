@@ -14,3 +14,5 @@ Feel free to contribute!
 Status:
 
 Finished All challenges for 2020 currently available (24/04/2020) Q, DF
+
+Finished all challenges for 2019 except for 2 which either were incomprehensible from google translate or too hard.
