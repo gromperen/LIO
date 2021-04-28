@@ -1,7 +1,7 @@
 # LIO
 Collection  of answers for the Luxembourg Informatics Olympiad.
 
-Link: https://portal.education.lu/infosolympiad/LIO-2020#3216504-les-questionnaires
+Link: https://portal.education.lu/infosolympiad/
 
 ## Naming of Files: ##
 
@@ -11,6 +11,6 @@ F - Final
 
 ## Disclaimer: ##
 
-These Programs have not been tested by the official testing system and are not guaranteed to work on all edge cases or they might get TLE.
+Some of these programs have not been tested by the official testing system (pre 2021) and are not guaranteed to work on all edge cases or they might get TLE.
 
 Feel free to contribute!
