@@ -4,7 +4,7 @@ using namespace std;
 #define ll long long
 
 const int INF = 1e9;
-const int MAXN = 5005;
+const int MAXN = 1e4+5;
 
 vector<vector<int>> lookup(MAXN, vector<int> (MAXN, 0));
 int parent[MAXN+1];
